@@ -1,1 +1,1 @@
-web: gunicorn abra_restapi_messenger.wsgi --preload
+web: python manage.py runserver 0.0.0.0:\$PORT
